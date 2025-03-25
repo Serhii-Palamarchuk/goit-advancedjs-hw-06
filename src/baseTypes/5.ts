@@ -3,5 +3,5 @@
   І так само визначте змінну, яка може приймати тільки одне з двох рядкових значень: 'enable' або 'disable' (literal type)?
 */
 
-let union;
-let literal;
+let union: string | number; //union type, дозволяє або рядок, або число
+let literal: 'enable' | 'disable'; //це literal type, дозволяє тільки ці два конкретні значення
